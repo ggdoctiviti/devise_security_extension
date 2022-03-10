@@ -23,7 +23,7 @@ class Devise::PasswordExpiredController < DeviseController
   private
 
   def skip_password_change
-    return if (!resource.nil? && resource.need_change_password?) && (session['ssotype'].blank?)
+    return if ((!resource.nil? && resource.need_change_password?)) && ((session['ssotype'].blank?) && (resource.expire_password))
     redirect_to :root
   end
 
