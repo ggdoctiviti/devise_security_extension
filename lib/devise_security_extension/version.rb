@@ -1,3 +1,3 @@
 module DeviseSecurityExtension
-  VERSION = "0.10.2.4".freeze
+  VERSION = "0.10.2.5".freeze
 end
