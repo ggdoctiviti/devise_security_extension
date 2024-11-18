@@ -19,7 +19,7 @@ pkg
 #
 # For MacOS:
 #
-#.DS_Store
+.DS_Store
 #
 # For TextMate
 #*.tmproj
@@ -36,3 +36,6 @@ pkg
 log
 test/tmp/*
 *.gem
+
+# For Nova 
+/.nova/*
